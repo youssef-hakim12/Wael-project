@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.header img {
+    max-width: 100%;
+}
+
+.photo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.photo-container img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.registration-form {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label, form select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+    top: 15px;
+}
+
+
